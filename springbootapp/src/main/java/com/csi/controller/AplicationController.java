@@ -14,6 +14,6 @@ public class AplicationController {
     }
     @GetMapping("/service")
     public String sayServices(){
-        return "Software Developemnt";
+        return "Software Developemnt SErvices";
     }
 }
