@@ -23,4 +23,9 @@ public class AplicationController {
     public String sayServices(){
         return "Software Developemnt SErvices";
     }
+
+    @GetMapping("/company")
+    public String sayCompany(){
+        return "CSI";
+    }
 }
