@@ -12,4 +12,11 @@ public class AplicationController {
     public String sayHello(){
         return "WELCOME TO FINTECH CSI";
     }
+
+
+    @GetMapping("/address")
+    public String sayAddress(){
+        return "Mumbai| Pune";
+    }
+
 }
