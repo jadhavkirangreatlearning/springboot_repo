@@ -19,4 +19,8 @@ public class AplicationController {
         return "Mumbai| Pune";
     }
 
+    @GetMapping("/service")
+    public String sayServices(){
+        return "Software Developemnt SErvices";
+    }
 }
