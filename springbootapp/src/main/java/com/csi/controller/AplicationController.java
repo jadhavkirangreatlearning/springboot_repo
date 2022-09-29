@@ -32,6 +32,6 @@ public class AplicationController {
 
     @GetMapping("/company")
     public String sayCompany(){
-        return "CSI";
+        return " Fintech CSI";
     }
 }
