@@ -19,6 +19,12 @@ public class AplicationController {
         return "Mumbai| Pune";
     }
 
+    @GetMapping("/phoneservice")
+    public String sayPhone(){
+        return "iPhone| samsung";
+    }
+
+
     @GetMapping("/service")
     public String sayServices(){
         return "Software Developemnt SErvices";
